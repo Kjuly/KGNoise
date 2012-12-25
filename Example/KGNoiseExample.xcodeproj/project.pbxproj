@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7324C77A16006DD4000A0863 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7324C77916006DD4000A0863 /* UIKit.framework */; };
-		7324C77C16006DDF000A0863 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7324C77B16006DDF000A0863 /* Foundation.framework */; };
-		7324C77E16006DFC000A0863 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7324C77D16006DFC000A0863 /* CoreGraphics.framework */; };
-		73411DCD161790A400D79E57 /* UIColor+KGNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 73411DC9161790A300D79E57 /* UIColor+KGNoise.m */; };
-		73411DCF161790A400D79E57 /* UIImage+KGNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 73411DCB161790A300D79E57 /* UIImage+KGNoise.m */; };
 		73411DD11617923000D79E57 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73411DD01617923000D79E57 /* Default-568h@2x.png */; };
 		73411DD3161792C400D79E57 /* Perspective-Button-Go-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73411DD2161792C400D79E57 /* Perspective-Button-Go-icon@2x.png */; };
 		73411DD4161792C400D79E57 /* Perspective-Button-Go-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73411DD2161792C400D79E57 /* Perspective-Button-Go-icon@2x.png */; };
@@ -19,20 +14,20 @@
 		73CF1C4016006116006D9180 /* KGMacAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CF1C3E16006116006D9180 /* KGMacAppDelegate.m */; };
 		73CF1C4116006116006D9180 /* MacMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CF1C3F16006116006D9180 /* MacMain.m */; };
 		73CF1C4316006181006D9180 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73CF1C4216006181006D9180 /* MainMenu.xib */; };
-		73CF1C47160061B7006D9180 /* KGNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CF1C46160061B7006D9180 /* KGNoise.m */; };
 		73CF1C81160069A1006D9180 /* iOSMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CF1C7C160069A1006D9180 /* iOSMain.m */; };
 		73CF1C82160069A1006D9180 /* KGIOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CF1C7E160069A1006D9180 /* KGIOSAppDelegate.m */; };
-		73CF1C8416006B6B006D9180 /* KGNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CF1C46160061B7006D9180 /* KGNoise.m */; };
+		7F346603168A0A3400A28E13 /* KGNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3465FE168A0A3400A28E13 /* KGNoise.m */; };
+		7F346604168A0A3400A28E13 /* UIColor+KGNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F346600168A0A3400A28E13 /* UIColor+KGNoise.m */; };
+		7F346605168A0A3400A28E13 /* UIImage+KGNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F346602168A0A3400A28E13 /* UIImage+KGNoise.m */; };
+		7F346606168A0A3F00A28E13 /* KGNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3465FE168A0A3400A28E13 /* KGNoise.m */; };
+		7F346607168A0A3F00A28E13 /* UIColor+KGNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F346600168A0A3400A28E13 /* UIColor+KGNoise.m */; };
+		7F346608168A0A3F00A28E13 /* UIImage+KGNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F346602168A0A3400A28E13 /* UIImage+KGNoise.m */; };
+		7F34660A168A0A4700A28E13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F346609168A0A4700A28E13 /* Foundation.framework */; };
+		7F34660C168A0A4F00A28E13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F34660B168A0A4F00A28E13 /* UIKit.framework */; };
+		7F34660E168A0A5500A28E13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F34660D168A0A5500A28E13 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7324C77916006DD4000A0863 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		7324C77B16006DDF000A0863 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7324C77D16006DFC000A0863 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		73411DC8161790A300D79E57 /* UIColor+KGNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+KGNoise.h"; path = "../UIColor+KGNoise.h"; sourceTree = "<group>"; };
-		73411DC9161790A300D79E57 /* UIColor+KGNoise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+KGNoise.m"; path = "../UIColor+KGNoise.m"; sourceTree = "<group>"; };
-		73411DCA161790A300D79E57 /* UIImage+KGNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+KGNoise.h"; path = "../UIImage+KGNoise.h"; sourceTree = "<group>"; };
-		73411DCB161790A300D79E57 /* UIImage+KGNoise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+KGNoise.m"; path = "../UIImage+KGNoise.m"; sourceTree = "<group>"; };
 		73411DD01617923000D79E57 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		73411DD2161792C400D79E57 /* Perspective-Button-Go-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Perspective-Button-Go-icon@2x.png"; sourceTree = "<group>"; };
 		73CF1C161600604E006D9180 /* KGMacNoiseExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KGMacNoiseExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,12 +38,19 @@
 		73CF1C3E16006116006D9180 /* KGMacAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGMacAppDelegate.m; sourceTree = "<group>"; };
 		73CF1C3F16006116006D9180 /* MacMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacMain.m; sourceTree = "<group>"; };
 		73CF1C4216006181006D9180 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
-		73CF1C45160061B7006D9180 /* KGNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGNoise.h; path = ../KGNoise.h; sourceTree = "<group>"; };
-		73CF1C46160061B7006D9180 /* KGNoise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGNoise.m; path = ../KGNoise.m; sourceTree = "<group>"; };
 		73CF1C5A160068AD006D9180 /* KGIOSNoiseEample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KGIOSNoiseEample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73CF1C7C160069A1006D9180 /* iOSMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSMain.m; sourceTree = "<group>"; };
 		73CF1C7D160069A1006D9180 /* KGIOSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGIOSAppDelegate.h; sourceTree = "<group>"; };
 		73CF1C7E160069A1006D9180 /* KGIOSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGIOSAppDelegate.m; sourceTree = "<group>"; };
+		7F3465FD168A0A3400A28E13 /* KGNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGNoise.h; sourceTree = "<group>"; };
+		7F3465FE168A0A3400A28E13 /* KGNoise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGNoise.m; sourceTree = "<group>"; };
+		7F3465FF168A0A3400A28E13 /* UIColor+KGNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KGNoise.h"; sourceTree = "<group>"; };
+		7F346600168A0A3400A28E13 /* UIColor+KGNoise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KGNoise.m"; sourceTree = "<group>"; };
+		7F346601168A0A3400A28E13 /* UIImage+KGNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KGNoise.h"; sourceTree = "<group>"; };
+		7F346602168A0A3400A28E13 /* UIImage+KGNoise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KGNoise.m"; sourceTree = "<group>"; };
+		7F346609168A0A4700A28E13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F34660B168A0A4F00A28E13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7F34660D168A0A5500A28E13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7324C77E16006DFC000A0863 /* CoreGraphics.framework in Frameworks */,
-				7324C77C16006DDF000A0863 /* Foundation.framework in Frameworks */,
-				7324C77A16006DD4000A0863 /* UIKit.framework in Frameworks */,
+				7F34660E168A0A5500A28E13 /* CoreGraphics.framework in Frameworks */,
+				7F34660C168A0A4F00A28E13 /* UIKit.framework in Frameworks */,
+				7F34660A168A0A4700A28E13 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +78,7 @@
 		73CF1C0B1600604E006D9180 = {
 			isa = PBXGroup;
 			children = (
-				73CF1C45160061B7006D9180 /* KGNoise.h */,
-				73CF1C46160061B7006D9180 /* KGNoise.m */,
+				7F3465FC168A0A3400A28E13 /* KGNoise */,
 				73CF1C3C160060C5006D9180 /* Mac Example */,
 				73CF1C7B16006936006D9180 /* iOS Example */,
 				73411DD2161792C400D79E57 /* Perspective-Button-Go-icon@2x.png */,
@@ -119,9 +120,9 @@
 		73CF1C5C160068AD006D9180 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7324C77D16006DFC000A0863 /* CoreGraphics.framework */,
-				7324C77B16006DDF000A0863 /* Foundation.framework */,
-				7324C77916006DD4000A0863 /* UIKit.framework */,
+				7F34660D168A0A5500A28E13 /* CoreGraphics.framework */,
+				7F34660B168A0A4F00A28E13 /* UIKit.framework */,
+				7F346609168A0A4700A28E13 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,14 +133,24 @@
 				73CF1C7C160069A1006D9180 /* iOSMain.m */,
 				73CF1C7D160069A1006D9180 /* KGIOSAppDelegate.h */,
 				73CF1C7E160069A1006D9180 /* KGIOSAppDelegate.m */,
-				73411DC8161790A300D79E57 /* UIColor+KGNoise.h */,
-				73411DC9161790A300D79E57 /* UIColor+KGNoise.m */,
-				73411DCA161790A300D79E57 /* UIImage+KGNoise.h */,
-				73411DCB161790A300D79E57 /* UIImage+KGNoise.m */,
 				73411DD01617923000D79E57 /* Default-568h@2x.png */,
 				73CF1C5C160068AD006D9180 /* Frameworks */,
 			);
 			name = "iOS Example";
+			sourceTree = "<group>";
+		};
+		7F3465FC168A0A3400A28E13 /* KGNoise */ = {
+			isa = PBXGroup;
+			children = (
+				7F3465FD168A0A3400A28E13 /* KGNoise.h */,
+				7F3465FE168A0A3400A28E13 /* KGNoise.m */,
+				7F3465FF168A0A3400A28E13 /* UIColor+KGNoise.h */,
+				7F346600168A0A3400A28E13 /* UIColor+KGNoise.m */,
+				7F346601168A0A3400A28E13 /* UIImage+KGNoise.h */,
+				7F346602168A0A3400A28E13 /* UIImage+KGNoise.m */,
+			);
+			name = KGNoise;
+			path = ../KGNoise;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +246,9 @@
 			files = (
 				73CF1C4016006116006D9180 /* KGMacAppDelegate.m in Sources */,
 				73CF1C4116006116006D9180 /* MacMain.m in Sources */,
-				73CF1C47160061B7006D9180 /* KGNoise.m in Sources */,
+				7F346603168A0A3400A28E13 /* KGNoise.m in Sources */,
+				7F346604168A0A3400A28E13 /* UIColor+KGNoise.m in Sources */,
+				7F346605168A0A3400A28E13 /* UIImage+KGNoise.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,11 +256,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F346606168A0A3F00A28E13 /* KGNoise.m in Sources */,
+				7F346607168A0A3F00A28E13 /* UIColor+KGNoise.m in Sources */,
+				7F346608168A0A3F00A28E13 /* UIImage+KGNoise.m in Sources */,
 				73CF1C81160069A1006D9180 /* iOSMain.m in Sources */,
 				73CF1C82160069A1006D9180 /* KGIOSAppDelegate.m in Sources */,
-				73CF1C8416006B6B006D9180 /* KGNoise.m in Sources */,
-				73411DCD161790A400D79E57 /* UIColor+KGNoise.m in Sources */,
-				73411DCF161790A400D79E57 /* UIImage+KGNoise.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
