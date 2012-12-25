@@ -45,12 +45,33 @@
   CGContextRelease(context);
   
   // Create a UIImage from the CGImage
-  UIImage *finishedImage = [UIImage imageWithCGImage:rawImage];
+  UIImage * finishedImage = [UIImage imageWithCGImage:rawImage];
   CGImageRelease(rawImage);
 	
-	UIColor *patternColor = [UIColor colorWithPatternImage:finishedImage];
+	UIColor * patternColor = [UIColor colorWithPatternImage:finishedImage];
   
   return patternColor;
+}
+
+#pragma mark - Exquisite (Original Instance Method)
+
+static NSUInteger const kImageSize = 128;
+
+- (UIColor *)colorWithExquisiteNoiseOpacity:(CGFloat)opacity {
+  return [self colorWithExquisiteNoiseOpacity:opacity
+                                 andBlendMode:kCGBlendModeScreen];
+}
+
+- (UIColor *)colorWithExquisiteNoiseOpacity:(CGFloat)opacity
+                               andBlendMode:(CGBlendMode)blendMode{
+  CGRect rect = {CGPointZero, kImageSize, kImageSize};
+  UIGraphicsBeginImageContextWithOptions(rect.size, YES, 0.0f);
+  CGContextRef context = UIGraphicsGetCurrentContext();
+  [self setFill]; CGContextFillRect(context, rect);
+  [KGNoise drawNoiseWithOpacity:opacity andBlendMode:blendMode];
+  UIImage * image = UIGraphicsGetImageFromCurrentImageContext();
+  UIGraphicsEndImageContext();
+  return [UIColor colorWithPatternImage:image];
 }
 
 @end

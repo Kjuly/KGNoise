@@ -13,4 +13,9 @@
 - (UIColor *)colorWithNoiseOpacity:(CGFloat)opacity;
 - (UIColor *)colorWithNoiseOpacity:(CGFloat)opacity andBlendMode:(CGBlendMode)blendMode;
 
+#pragma mark - Exquisite (Original Instance Method)
+
+- (UIColor *)colorWithExquisiteNoiseOpacity:(CGFloat)opacity;
+- (UIColor *)colorWithExquisiteNoiseOpacity:(CGFloat)opacity andBlendMode:(CGBlendMode)blendMode;
+
 @end
