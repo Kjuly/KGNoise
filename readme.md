@@ -1,4 +1,4 @@
-![](https://raw.github.com/kgn/KGNoise/master/KGNoise.jpg)
+![](https://raw.github.com/Kjuly/KGNoise/dev/KGNoise.jpg)
 
 I've been developing this noise drawing code for quite some time. It all started with drawing noise in the title bar of [INAppStoreWindow](https://github.com/indragiek/INAppStoreWindow). The original implementation of the noise drawing for the titlebar used `CIFilter`, but this took up an unusual amount of memory and also didn't look so great. So I began my quest for the best noise drawing solution, this project contains the third version which I feel is finally ready for prime time on the Mac and iOS! 
 
