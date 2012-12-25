@@ -7,24 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		73279ECB1631D03A004B8A68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73279ECA1631D03A004B8A68 /* CoreGraphics.framework */; };
-		73279ECD1631D044004B8A68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73279ECC1631D044004B8A68 /* UIKit.framework */; };
-		73279ECF1631D051004B8A68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73279ECE1631D051004B8A68 /* Foundation.framework */; };
 		73B7BF08161FA49400024C46 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73B7BF07161FA49400024C46 /* Default-568h@2x.png */; };
 		73CF1C1B1600604E006D9180 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73CF1C1A1600604E006D9180 /* Cocoa.framework */; };
 		73CF1C4016006116006D9180 /* KGMacAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CF1C3E16006116006D9180 /* KGMacAppDelegate.m */; };
 		73CF1C4116006116006D9180 /* MacMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CF1C3F16006116006D9180 /* MacMain.m */; };
 		73CF1C4316006181006D9180 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73CF1C4216006181006D9180 /* MainMenu.xib */; };
-		73CF1C47160061B7006D9180 /* KGNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CF1C46160061B7006D9180 /* KGNoise.m */; };
 		73CF1C81160069A1006D9180 /* iOSMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CF1C7C160069A1006D9180 /* iOSMain.m */; };
 		73CF1C82160069A1006D9180 /* KGIOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CF1C7E160069A1006D9180 /* KGIOSAppDelegate.m */; };
-		73CF1C8416006B6B006D9180 /* KGNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CF1C46160061B7006D9180 /* KGNoise.m */; };
+		7F3465E6168A017600A28E13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F3465E5168A017600A28E13 /* Foundation.framework */; };
+		7F3465E8168A017C00A28E13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F3465E7168A017C00A28E13 /* UIKit.framework */; };
+		7F3465EA168A018500A28E13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F3465E9168A018500A28E13 /* CoreGraphics.framework */; };
+		7F3465F9168A040800A28E13 /* KGNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3465F8168A040800A28E13 /* KGNoise.m */; };
+		7F3465FB168A04C700A28E13 /* KGNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3465F8168A040800A28E13 /* KGNoise.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		73279ECA1631D03A004B8A68 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		73279ECC1631D044004B8A68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		73279ECE1631D051004B8A68 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73B7BF07161FA49400024C46 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		73CF1C161600604E006D9180 /* KGMacNoiseExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KGMacNoiseExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73CF1C1A1600604E006D9180 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -34,12 +31,15 @@
 		73CF1C3E16006116006D9180 /* KGMacAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGMacAppDelegate.m; sourceTree = "<group>"; };
 		73CF1C3F16006116006D9180 /* MacMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacMain.m; sourceTree = "<group>"; };
 		73CF1C4216006181006D9180 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
-		73CF1C45160061B7006D9180 /* KGNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KGNoise.h; path = ../KGNoise.h; sourceTree = "<group>"; };
-		73CF1C46160061B7006D9180 /* KGNoise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KGNoise.m; path = ../KGNoise.m; sourceTree = "<group>"; };
 		73CF1C5A160068AD006D9180 /* KGIOSNoiseEample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KGIOSNoiseEample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73CF1C7C160069A1006D9180 /* iOSMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSMain.m; sourceTree = "<group>"; };
 		73CF1C7D160069A1006D9180 /* KGIOSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGIOSAppDelegate.h; sourceTree = "<group>"; };
 		73CF1C7E160069A1006D9180 /* KGIOSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGIOSAppDelegate.m; sourceTree = "<group>"; };
+		7F3465E5168A017600A28E13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F3465E7168A017C00A28E13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7F3465E9168A018500A28E13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		7F3465F7168A040800A28E13 /* KGNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGNoise.h; sourceTree = "<group>"; };
+		7F3465F8168A040800A28E13 /* KGNoise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGNoise.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73279ECF1631D051004B8A68 /* Foundation.framework in Frameworks */,
-				73279ECD1631D044004B8A68 /* UIKit.framework in Frameworks */,
-				73279ECB1631D03A004B8A68 /* CoreGraphics.framework in Frameworks */,
+				7F3465EA168A018500A28E13 /* CoreGraphics.framework in Frameworks */,
+				7F3465E8168A017C00A28E13 /* UIKit.framework in Frameworks */,
+				7F3465E6168A017600A28E13 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,8 +67,7 @@
 		73CF1C0B1600604E006D9180 = {
 			isa = PBXGroup;
 			children = (
-				73CF1C45160061B7006D9180 /* KGNoise.h */,
-				73CF1C46160061B7006D9180 /* KGNoise.m */,
+				7F3465F6168A040800A28E13 /* KGNoise */,
 				73CF1C3C160060C5006D9180 /* Mac Example */,
 				73CF1C7B16006936006D9180 /* iOS Example */,
 				73CF1C171600604E006D9180 /* Products */,
@@ -109,9 +108,9 @@
 		73CF1C5C160068AD006D9180 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				73279ECE1631D051004B8A68 /* Foundation.framework */,
-				73279ECC1631D044004B8A68 /* UIKit.framework */,
-				73279ECA1631D03A004B8A68 /* CoreGraphics.framework */,
+				7F3465E9168A018500A28E13 /* CoreGraphics.framework */,
+				7F3465E7168A017C00A28E13 /* UIKit.framework */,
+				7F3465E5168A017600A28E13 /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,6 +125,16 @@
 				73CF1C5C160068AD006D9180 /* Frameworks */,
 			);
 			name = "iOS Example";
+			sourceTree = "<group>";
+		};
+		7F3465F6168A040800A28E13 /* KGNoise */ = {
+			isa = PBXGroup;
+			children = (
+				7F3465F7168A040800A28E13 /* KGNoise.h */,
+				7F3465F8168A040800A28E13 /* KGNoise.m */,
+			);
+			name = KGNoise;
+			path = ../KGNoise;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +228,7 @@
 			files = (
 				73CF1C4016006116006D9180 /* KGMacAppDelegate.m in Sources */,
 				73CF1C4116006116006D9180 /* MacMain.m in Sources */,
-				73CF1C47160061B7006D9180 /* KGNoise.m in Sources */,
+				7F3465F9168A040800A28E13 /* KGNoise.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,9 +236,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F3465FB168A04C700A28E13 /* KGNoise.m in Sources */,
 				73CF1C81160069A1006D9180 /* iOSMain.m in Sources */,
 				73CF1C82160069A1006D9180 /* KGIOSAppDelegate.m in Sources */,
-				73CF1C8416006B6B006D9180 /* KGNoise.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
