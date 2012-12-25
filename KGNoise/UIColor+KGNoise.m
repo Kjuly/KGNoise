@@ -19,15 +19,15 @@
 	// Figure out our screen scale, if it's a retina display we'll make the noise at twice the resolution
 	CGFloat screenScale = [[UIScreen mainScreen] scale];
 	
-	// Create a context to draw in	
+	// Create a context to draw in
 	CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
 	CGContextRef context = CGBitmapContextCreate(NULL,
-												 256.0 * screenScale,
-												 256.0 * screenScale,
-												 8, /* bits per channel */
-												 (256.0 * screenScale * 4), /* 4 channels per pixel * numPixels/row */
-												 colorSpace,
-												 kCGImageAlphaPremultipliedLast);
+                                               256.0 * screenScale,
+                                               256.0 * screenScale,
+                                               8, /* bits per channel */
+                                               (256.0 * screenScale * 4), /* 4 channels per pixel * numPixels/row */
+                                               colorSpace,
+                                               kCGImageAlphaPremultipliedLast);
 	CGColorSpaceRelease(colorSpace);
 	
 	UIGraphicsPushContext(context);
@@ -40,17 +40,17 @@
 	[KGNoise drawNoiseWithOpacity:opacity andBlendMode:blendMode];
 	
 	// Create a CGImage from the context
-    CGImageRef rawImage = CGBitmapContextCreateImage(context);
+  CGImageRef rawImage = CGBitmapContextCreateImage(context);
 	UIGraphicsPopContext();
-    CGContextRelease(context);
-    
-    // Create a UIImage from the CGImage
-    UIImage *finishedImage = [UIImage imageWithCGImage:rawImage];
-    CGImageRelease(rawImage);
+  CGContextRelease(context);
+  
+  // Create a UIImage from the CGImage
+  UIImage *finishedImage = [UIImage imageWithCGImage:rawImage];
+  CGImageRelease(rawImage);
 	
 	UIColor *patternColor = [UIColor colorWithPatternImage:finishedImage];
-    
-    return patternColor;
+  
+  return patternColor;
 }
 
 @end
