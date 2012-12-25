@@ -11,11 +11,12 @@
 
 @implementation UIImage(KGNoise)
 
-- (UIImage *)imageWithNoiseOpacity:(CGFloat)opacity{
+- (UIImage *)imageWithNoiseOpacity:(CGFloat)opacity {
 	return [self imageWithNoiseOpacity:opacity andBlendMode:kCGBlendModeScreen];
 }
 
-- (UIImage *)imageWithNoiseOpacity:(CGFloat)opacity andBlendMode:(CGBlendMode)blendMode{
+- (UIImage *)imageWithNoiseOpacity:(CGFloat)opacity
+                      andBlendMode:(CGBlendMode)blendMode {
   // Create a context to draw in
   CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceRGB();
   CGContextRef context = CGBitmapContextCreate(NULL,
@@ -36,11 +37,14 @@
   UIGraphicsPushContext(context);
 	
   // Draw the image
-  [self drawAtPoint:CGPointMake(0.0, 0.0)];
+  [self drawAtPoint:CGPointMake(0.f, 0.f)];
 	
 	CGContextRestoreGState(context);
 	
-	CGContextClipToMask(context, CGRectMake(0.0, 0.0, self.size.width * self.scale, self.size.height * self.scale), [self CGImage]);
+  
+	CGContextClipToMask(context,
+                      (CGRect){CGPointZero, {self.size.width * self.scale, self.size.height * self.scale}},
+                      [self CGImage]);
 	
   // Noise on top
   [KGNoise drawNoiseWithOpacity:opacity andBlendMode:blendMode];
@@ -51,7 +55,7 @@
   CGContextRelease(context);
 	
   // Create a UIImage from the CGImage
-  UIImage *finishedImage = [UIImage imageWithCGImage:rawImage scale:self.scale orientation:self.imageOrientation];
+  UIImage * finishedImage = [UIImage imageWithCGImage:rawImage scale:self.scale orientation:self.imageOrientation];
   CGImageRelease(rawImage);
 	
   return finishedImage;
