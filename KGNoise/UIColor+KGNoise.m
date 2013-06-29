@@ -28,7 +28,7 @@
                                                8, /* bits per channel */
                                                (256.f * screenScale * 4), /* 4 channels per pixel * numPixels/row */
                                                colorSpace,
-                                               kCGImageAlphaPremultipliedLast);
+                                               (CGBitmapInfo)kCGImageAlphaPremultipliedLast);
 	CGColorSpaceRelease(colorSpace);
 	
 	UIGraphicsPushContext(context);

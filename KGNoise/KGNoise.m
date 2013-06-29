@@ -24,7 +24,7 @@
     for(NSUInteger i = 0; i < size; ++i) {rgba[i] = rand() % 256;}
     CGColorSpaceRef colorSpace = CGColorSpaceCreateDeviceGray();
     CGContextRef bitmapContext =
-    CGBitmapContextCreate(rgba, width, height, 8, width, colorSpace, kCGImageAlphaNone);
+    CGBitmapContextCreate(rgba, width, height, 8, width, colorSpace, (CGBitmapInfo)kCGImageAlphaNone);
     CFRelease(colorSpace);
     noiseImageRef = CGBitmapContextCreateImage(bitmapContext);
     CFRelease(bitmapContext);

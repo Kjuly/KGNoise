@@ -25,7 +25,7 @@
                                                8, /* bits per channel */
                                                (self.size.width * self.scale * 4), /* 4 channels per pixel * numPixels/row */
                                                colorSpace,
-                                               kCGImageAlphaPremultipliedLast);
+                                               (CGBitmapInfo)kCGImageAlphaPremultipliedLast);
   CGColorSpaceRelease(colorSpace);
 	
 	CGContextSaveGState(context);
